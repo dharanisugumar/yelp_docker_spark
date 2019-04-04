@@ -5,9 +5,9 @@ Start spark-master and worker as defined in docker-compose yml file
 docker-compose up
 ```
 
-copy `com.newyorker.challenge-1.0-SNAPSHOT.jar` generated using yelp-dataset-challenge repo to `yelp_challenge/scala/` directory
+Copy `com.newyorker.challenge-1.0-SNAPSHOT.jar` generated using yelp-dataset-challenge repo to `yelp_challenge/scala/` directory.
 
-Copy yelp_dataset.tar to yelp_challenge/scala/
+Copy the input data set `yelp_dataset.tar` to `yelp_challenge/scala/` directory.
 
 ```
 cd yelp_challenge/scala/
